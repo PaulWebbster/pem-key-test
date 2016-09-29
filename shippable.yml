@@ -1,0 +1,11 @@
+language: python
+
+build:                                                  
+
+  ci:
+    - ls /tmp/ssh/
+    
+integrations:
+    key:
+    - integrationName: pgp-keys-storage
+      type: pem-key
