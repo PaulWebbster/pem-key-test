@@ -3,7 +3,8 @@ language: python
 build:                                                  
 
   ci:
-    - ls /tmp/ssh/
+    - touch lol.txt
+    - scp -i /tmp/ssh/PEMKeyPGP -P 2626 lol.txt root@tw.thaumatec.com:.
     
 integrations:
     key:
