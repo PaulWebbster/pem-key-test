@@ -7,5 +7,5 @@ build:
     
 integrations:
     key:
-    - integrationName: pgp-keys-storage
+    - integrationName: "pgp-keys-storage"
       type: pem-key
